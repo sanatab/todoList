@@ -1,0 +1,78 @@
+body{
+    box-sizing: border-box;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./bg.jpg);
+    border: 3px solid lightcoral;
+    height: 97vh;
+    width: 213vh;
+}
+.container{
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 20px solid wheat;
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 40px;
+}
+.input-field{
+    padding: 10px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+#btn{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: grey;
+}
+#btn:hover{
+    background-color:rgb(20, 143, 192);
+    color: white;
+}
+h2{
+    font-size: 30px;
+    padding: 10px;
+
+}
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 7px;
+    background-color: wheat;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: grey;
+    cursor: pointer;
+   background-color: rgb(20, 143, 192);
+   color: white;
+}
+.inputs{
+    padding: 10px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex: 1 1 0%;
+}
+.edit{
+    background-color: green;
+}
+.delete{
+    background-color: red;
+}
